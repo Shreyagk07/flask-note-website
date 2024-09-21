@@ -1,8 +1,17 @@
-<h1>Flask Web App</h1>
-The Note Application is a full-stack web application that allows users to manage personal notes with features such as login, signup, and logout functionalities. It is developed using HTML, CSS, and JavaScript for the frontend, delivering a responsive and user-friendly interface. On the backend, the application utilizes Flask, a lightweight Python web framework, to handle server-side logic and user authentication.
+# **Note Application**
 
-Users can register using their email ID and password, securely store their credentials, and log in to access personalized notes. Once logged in, they can create, edit, and delete notes, with each action being reflected immediately in the database, which is managed using Flask's ORM (Object Relational Mapping) or direct database connections such as SQLite or MySQL.
+The Note Application is a full-stack web application that allows users to manage personal notes with features such as login, signup, and logout functionalities. Developed using HTML, CSS, and JavaScript for the frontend, this app delivers a responsive and user-friendly interface. On the backend, Flask, a lightweight Python web framework, handles server-side logic and user authentication.
 
-The application ensures the integrity and security of user data with proper session management and implements CRUD (Create, Read, Update, Delete) operations efficiently. Flask handles routing and interactions with the backend, while SQLAlchemy or a similar database management tool is used for persisting user data and notes. The integration between the frontend and backend ensures smooth data flow, providing users with a seamless experience.
-<p>Viewing The App</p>
-Go to http://127.0.0.1:5000
+## **Features**
+
+- **User Authentication**: Users can register with their email ID and password, securely storing their credentials.
+- **Note Management**: Once logged in, users can create, edit, and delete notes, with immediate updates reflected in the database.
+- **CRUD Operations**: Efficiently manage notes with Create, Read, Update, and Delete functionalities.
+- **Session Management**: Ensures the integrity and security of user data through proper session handling.
+
+## **Technologies Used**
+
+- **Flask**: For the backend server-side logic and user authentication.
+- **HTML/CSS/JavaScript**: For building a responsive and interactive frontend.
+- **SQLAlchemy**: For ORM (Object Relational Mapping) and database management (SQLite or MySQL).
+
